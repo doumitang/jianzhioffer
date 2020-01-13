@@ -12,7 +12,7 @@ public class Solution56_2 {
      * 自己的想法在代码实现上有点麻烦，cur和自己的pre和next都要比，参考题解只用和自己的next比
      * 如果cur和cur.next相等，则找到第一个和其next不等的cur
      * cur = cur.next
-     * pre.next = cur.next
+     * pre.next = cur
      * 如果cur和cur.next不相等，则pre = cur, cur = cur.next
      *
      * 运行时间：20ms
