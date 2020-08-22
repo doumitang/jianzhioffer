@@ -10,10 +10,12 @@ public class Solution13 {
             if (array[i] % 2 == 1) {
                 int temp = array[i];
                 int j = i;
+                // 整体后移
                 while (j > 0 && array[j - 1] % 2 == 0) {
                     array[j] = array[j - 1];
                     j--;
                 }
+                // 将当前的奇数插入到 j 位置
                 array[j] = temp;
             }
         }
