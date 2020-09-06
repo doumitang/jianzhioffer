@@ -4,6 +4,8 @@ public class Solution52 {
      * offer书第19题，关键在于遇到'*'的处理，可用非确定有限状态机表示
      * 注意：本题没有涉及括号
      *
+     * 存在很多重复子问题，参考 LeetCode 10
+     *
      * 运行时间：18ms
      * 占用内存：9200k
      * @param str
